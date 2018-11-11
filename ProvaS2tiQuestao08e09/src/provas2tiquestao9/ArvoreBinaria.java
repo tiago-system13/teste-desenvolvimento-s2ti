@@ -32,7 +32,7 @@ public class ArvoreBinaria {
         }
     }
     
-    public void run() {
+    public void iniciar() {
         raiz = new Node(20);        
         inserir(raiz, 22);
         inserir(raiz, 34);
@@ -70,7 +70,7 @@ public class ArvoreBinaria {
     public static void main(String[] args) {
      
          ArvoreBinaria arvore = new ArvoreBinaria();
-         arvore.run();
+         arvore.iniciar();
      }
 
 }
